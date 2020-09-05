@@ -1,4 +1,7 @@
     
+Codepen Link:
+https://codepen.io/MostafaWanas/pen/QWNOegN?editors=1100
+
 Questions:
      1. What is Semantic HTML? 
 	using HTML to reinforce structure and semantics on the webpage. This is done using proper semantic elements (i.e. header, nav, section) alongside nesting / indentation
@@ -106,19 +109,44 @@ Questions:
 	Version control enables all contributors to a project to understand all changes and revisions that were made. This is done as version control systems store all modifications in a central repository. This accordingly allows developers to collaborate more easily as every developer can see all changes and contribute (making changes to local versions and upload newest version)
 
     35. How often should I commit to github?
-	Commit command used to save changes to the local repo. Should be used often to avoid losing work. 
+	the Commit command is used to save changes to the local repo. Should be used often to avoid losing work. 
 
     36. What is the command we would use to push our repo up to github? 
 	git push is used to upload local repos to a remote repo. 
 
     37. Walk me through Lambda's git flow.
-
+	A) navigate to the designated repo on GitHub
+	b) Fork the repo to my own version
+	c) Add TL as a collaborator to the forked repo
+	d) Clone the repo from GitHub
+	e) on terminal cd to designated area to save repo 
+	f) in terminal -  "git clone 'link to repo'"
+	g) cd into newly created repo
+	h) branch repo - git checkout -b 'firsName-lastName'
+	I) work on files 
+	j) git add . (Add the repo and changes, making them ready for a commit)
+	k) git commit -m "commit message"
+	l) Push changes to GitHub repo - git push u- origin branch-name
+	m) submit a pull request (base repo to be forked one and add TL as reviewer) 
 
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+	an inline element does not cause a line break or does not need to start on a new line. Inline elements also do not take up the full width of a page and are only bound by the space of their opening and closing tags. Inline elements, such as <span>, <a> or <img> are usually used within other HTML elements.
+	Block elements always start on a new line and take full width of a page (left to right). Block elements including <h> and <p> amongst others.
+
     2. What happens when an element is positioned absolutely? 
+	absolute positioning positions the element based on its closest positioned parent (relative to its parent) and changes the layout around the element. 
+	
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+	block: <div>,<p>,<h>
+	inline: <span>,<a>, <img>
+	inline-block: similar to inline but with padding and margins. These include <nav> items.
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+	Webpages are a combination of rectangular boxes (html elements) arranged relative to each other. The make up of each box is the content (text or image), padding (blank space around the content, located between content and its border), border and margin (outer most area of the webpage, the blank space around border).
+
+
+
