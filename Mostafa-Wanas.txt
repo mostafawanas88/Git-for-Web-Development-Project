@@ -146,7 +146,7 @@ Stretch Questions
 	inline-block: similar to inline but with padding and margins. These include <nav> items.
 
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-	Webpages are a combination of rectangular boxes (html elements) arranged relative to each other. The make up of each box is the content (text or image), padding (blank space around the content, located between content and its border), border and margin (outer most area of the webpage, the blank space around border).
+	Webpages are a combination of rectangular boxes (html elements) arranged relative to each other. The make up of each box is the content (text or image), padding (blank space around the content, located between content and its border), border and margin (outer most area of the webpage, the blank space around border). Fixing the box model is done through box-sizing (width and height)
 
 
 
